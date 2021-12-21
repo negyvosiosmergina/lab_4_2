@@ -20,6 +20,7 @@ namespace LAB_4_1_POGI_S3
             switch (q)
             {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 case "1":
                     Console.Write("\n");
                     Console.Write("Enter A: ");
@@ -32,6 +33,14 @@ namespace LAB_4_1_POGI_S3
 >>>>>>> case_2
                     Console.WriteLine();
                     goto start;
+=======
+                case "3":
+                    Console.Write("\n");
+                    Console.Write("A+B = {0}", a + b);
+                    Console.WriteLine();
+                    goto start;
+
+>>>>>>> case_3
             }
         }
     }
