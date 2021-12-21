@@ -19,7 +19,6 @@ namespace LAB_4_1_POGI_S3
 
             switch (q)
             {
-<<<<<<< HEAD
 
                 case "1":
                     Console.Write("\n");
@@ -53,6 +52,13 @@ namespace LAB_4_1_POGI_S3
                 case "5":
                     Console.Write("\n");
                     Console.Write("A*B = {0}", a * b);
+
+                    Console.WriteLine();
+                    goto start;
+
+                case "6":
+                    Console.Write("\n");
+                    Console.Write("A/B = {0}", a / b);
 
                     Console.WriteLine();
                     goto start;
