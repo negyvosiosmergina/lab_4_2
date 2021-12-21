@@ -19,28 +19,35 @@ namespace LAB_4_1_POGI_S3
 
             switch (q)
             {
-<<<<<<< HEAD
-<<<<<<< HEAD
+
                 case "1":
                     Console.Write("\n");
                     Console.Write("Enter A: ");
                     a = int.Parse(Console.ReadLine());
-=======
+
+                    Console.WriteLine();
+                    goto start;
+
                 case "2":
                     Console.Write("\n");
                     Console.Write("Enter B: ");
                     b = int.Parse(Console.ReadLine());
->>>>>>> case_2
+
                     Console.WriteLine();
                     goto start;
-=======
+
                 case "3":
                     Console.Write("\n");
                     Console.Write("A+B = {0}", a + b);
                     Console.WriteLine();
                     goto start;
 
->>>>>>> case_3
+                case "4":
+                    Console.Write("\n");
+                    Console.Write("A-B = {0}", a - b);
+                    Console.WriteLine();
+                    goto start;
+
             }
         }
     }
