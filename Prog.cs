@@ -19,7 +19,11 @@ namespace LAB_4_1_POGI_S3
 
             switch (q)
             {
-
+                case "3":
+                    Console.Write("\n");
+                    Console.Write("A+B = {0}", a + b);
+                    Console.WriteLine();
+                    goto start;
 
             }
         }
