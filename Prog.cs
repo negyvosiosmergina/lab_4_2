@@ -19,9 +19,15 @@ namespace LAB_4_1_POGI_S3
 
             switch (q)
             {
-
-
+                case "1":
+                    Console.Write("\n");
+                    Console.Write("Enter A: ");
+                    a = int.Parse(Console.ReadLine());
+                    Console.WriteLine();
+                    goto start;
             }
         }
     }
 }
+
+
